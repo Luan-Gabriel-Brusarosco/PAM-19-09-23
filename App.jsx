@@ -12,17 +12,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tabs.Navigator>
-        <Tabs.Screen
-        name='Cadastrar'
-        component={ Cadastrar }
-        />
-        <Tabs.Screen
-        name='Listar'
-        component={ Listar }
-        options={{
-          tabBarIcon={}
-        }}
-        />
+        <Tabs.Screen name='Cadastrar' component={ Cadastrar }/>
+        <Tabs.Screen name='Listar' component={ Listar }/>
       </Tabs.Navigator>
     </NavigationContainer>
   );
